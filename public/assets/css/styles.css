@@ -38,7 +38,8 @@ body {
 
 .note-title:read-only,
 .note-textarea:read-only {
-  color: #757575;
+  /*color: #757575;*/
+  color: red;
 }
 
 .list-container .card {
@@ -75,4 +76,7 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+}
+.bg-dark {
+  background-image: linear-gradient(to right, rgb(3, 131, 31), rgb(2, 11, 138)) !important;
 }
