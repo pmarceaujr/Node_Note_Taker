@@ -59,6 +59,8 @@ body {
   border-top: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+  font-family: "Pattaya", sans-serif;
+  font-size: 24px;
 }
 
 .list-item-title {
@@ -77,6 +79,14 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+.list-group > li:nth-child(even) {
+  background: rgb(189, 189, 189);
+}
+.list-group > li:nth-child(odd) {
+  background: rgb(218, 218, 218);
+}
+
 .bg-dark {
   background-image: linear-gradient(to right, rgb(3, 131, 31), rgb(2, 11, 138)) !important;
 }
