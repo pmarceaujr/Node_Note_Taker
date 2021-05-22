@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Node.js Note Taker</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -25,14 +27,23 @@
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4 list-container">
+        <div class="col-3 list-container">
           <div class="card">
             <ul class="list-group"></ul>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-7">
           <input class="note-title" placeholder="Enter Note Title..." maxlength="28" type="text" />
           <textarea class="note-textarea" placeholder="Enter Note Text..."></textarea>
+        </div>
+        <div class="col-2">
+          <h3>Directions for use</h3>
+          <ul>
+            <li>Enter note title</li>
+            <li>Enter note text</li>
+            <li>Click save to save note</li>
+            <li>Click the pencil to clear note</li>
+          </ul>
         </div>
       </div>
     </div>
