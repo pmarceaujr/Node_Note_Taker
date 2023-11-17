@@ -42,6 +42,6 @@
 ## __Contributors__ 
   No other contributors at this time.   
 ## __Deployed__ __Link__ 
-  https://salty-lake-67060.herokuapp.com/ 
+  [Hosted on Heroku](https://pmarceaujr-node-notes-57eb5780f3c5.herokuapp.com/notes) 
 ## __License__ 
  This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit).   
